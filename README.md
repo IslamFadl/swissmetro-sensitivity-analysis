@@ -37,6 +37,15 @@ analysis on time and cost.  The first solution depends on the `biogeme` package,
    ```
    python sensitivity_analysis.py & python sensitivity_analysis_chart.py & python combined_sensitivity_analysis.py
 
+3. **We've got the charts**
+
+![alt text](https://github.com/IslamFadl/swissmetro-sensitivity-analysis/blob/main/combined_sensitivity_analysis_chart.png "Combined sensitivity chart")
+
+![alt text](https://github.com/IslamFadl/swissmetro-sensitivity-analysis/blob/main/sensitivity_analysis_chart.png "Sensitivity chart")
+
+
+
+
 ## Credits
 The Python script used for the sensitivity analysis was adapted from an original example provided by Prof. Michel Bierlaire (EPFL), implemented in Biogeme.
 

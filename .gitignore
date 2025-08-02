@@ -60,3 +60,7 @@ venv.bak/
 # IDE files
 .idea/
 .vscode/
+
+.html
+.pickle
+.toml
