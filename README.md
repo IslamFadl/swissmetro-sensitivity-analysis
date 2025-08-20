@@ -1,17 +1,12 @@
 Sensitivity Analysis of Mobility Modes Using Cost and Time
 =================================
 
-This repository contains a self‑contained analysis to the sensitivity of mobility and transportation modes based on chages in duration and cost of transport mode.  The goal is to estimate a
-discrete choice (multinomial logit) model using the provided Swissmetro
-dataset and to perform a sensitivity analysis on how customers react to
-changes in travel time and costs.  The goal is
-to visualise how modal market shares change when the attributes of each
-transport option are varied.
+This repository contains a self‑contained analysis to the sensitivity of mobility and transportation modes based on chages in duration and cost of transport mode.  The goal is to estimate a discrete choice (multinomial logit) model using the provided Swissmetro dataset and to perform a sensitivity analysis on how customers react to changes in travel time and costs.  The goal is to visualise how modal market shares change when the attributes of each transport options are varied.
 
 ## Problem context
 
 The analysis could help make transparent and 
-fare structures for public transportion. A
+fair structures for public transportation. A
 logit‑model example is supplied alongside a dataset.  The first segment is to
 run this model and use its estimated values to conduct a sensitivity
 analysis on time and cost.  The first solution depends on the `biogeme` package, while the second solution re‑implements the logit estimation using SciPy.
